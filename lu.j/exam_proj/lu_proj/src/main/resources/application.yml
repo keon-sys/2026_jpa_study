@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: lu_proj
+  datasource:
+    url: jdbc:h2:mem:lu_proj;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
