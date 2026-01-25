@@ -17,8 +17,6 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction(); //트랜잭션 기능 획득
 
         try {
-
-
             tx.begin(); //트랜잭션 시작
             logic(em);  //비즈니스 로직
             tx.commit();//트랜잭션 커밋

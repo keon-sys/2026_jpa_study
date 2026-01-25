@@ -1,4 +1,4 @@
-package book.chapter_2;
+package book;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -36,7 +36,7 @@ public class Main {
 	public static void logic(EntityManager em) {
 
 		String id = "id1";
-		book.chapter_2.Member member = new book.chapter_2.Member();
+		Member member = new Member();
 		member.setId(id);
 		member.setUsername("지한");
 		member.setAge(2);
@@ -48,11 +48,11 @@ public class Main {
 		member.setAge(20);
 
 		//한 건 조회
-		book.chapter_2.Member findMember = em.find(book.chapter_2.Member.class, id);
+		Member findMember = em.find(Member.class, id);
 		System.out.println("findMember=" + findMember.getUsername() + ", age=" + findMember.getAge());
 
 		//목록 조회
-		List<book.chapter_2.Member> members = em.createQuery("select m from Member m", book.chapter_2.Member.class).getResultList();
+		List<Member> members = em.createQuery("select m from Member m", Member.class).getResultList();
 		System.out.println("members.size=" + members.size());
 
 		//삭제

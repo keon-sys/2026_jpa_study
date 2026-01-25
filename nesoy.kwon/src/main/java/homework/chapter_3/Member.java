@@ -1,4 +1,4 @@
-package book;
+package homework.chapter_3;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -5,7 +5,7 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
 
     <persistence-unit name="jpabook">
-        <class>book.chapter_4.Member</class>
+        <class>homework.chapter_3.Member</class>
         <properties>
             <!-- H2 Database Connection -->
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
