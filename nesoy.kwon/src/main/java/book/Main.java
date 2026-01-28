@@ -1,4 +1,4 @@
-package chapter_2;
+package book;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
