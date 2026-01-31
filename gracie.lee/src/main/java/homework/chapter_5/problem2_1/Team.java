@@ -48,7 +48,7 @@ public class Team {
         return "Team{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", members=" + members +  // ← Member.toString() 호출
+//                ", members=" + members +  // ← Member.toString() 호출
                 '}';
     }
 }
