@@ -31,6 +31,10 @@
         <class>homework.chapter_6.homework3.Product</class>
         <class>homework.chapter_6.homework3.Order</class>
 
+        <!-- 6장 보너스 -->
+        <class>homework.chapter_6.bonus1.Member</class>
+        <class>homework.chapter_6.bonus1.Locker</class>
+
         <!-- 6장 예제 -->
         <class>homework.chapter_6.example_2.Team</class>
         <class>homework.chapter_6.example_2.Member</class>
