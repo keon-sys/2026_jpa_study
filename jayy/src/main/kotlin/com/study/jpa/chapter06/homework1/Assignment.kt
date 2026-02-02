@@ -3,6 +3,7 @@ package com.study.jpa.chapter06.homework1
 import jakarta.persistence.Persistence
 
 /**
+ * 보너스 3 내용과 연관?
  * 주석 있을 떄(다대다로 취급) - 조인 테이블이 생성됨 (insert 3개 + 조인 테이블 insert 2개)
  * - @OneToMany만 있고 @JoinColumn이 없으면, JPA는 다대다처럼 취급
  * 주석 없을 떄(일대다 단방향) - 외래 키가 Member 테이블에 생성됨 (insert 3개 + update 2개)
