@@ -93,21 +93,21 @@ class Homework1Test {
 //        member_hw1_join (name, member_id)
 //        values
 //                (?, ?)
-//        Hibernate:
+//    Hibernate:
 //    /* insert for
 //        homework.chapter_6.homework1.homework1_joincolumn.Member */insert
 //                into
 //        member_hw1_join (name, member_id)
 //        values
 //                (?, ?)
-//        Hibernate:
+//    Hibernate:
 //        update
 //                member_hw1_join
 //        set
 //        team_id=?
 //                where
 //        member_id=?
-//        Hibernate:
+//    Hibernate:
 //        update
 //        member_hw1_join
 //                set
