@@ -23,8 +23,10 @@
         <class>homework.chapter_6.homework1.homework1_joincolumn.Member</class>
         <class>homework.chapter_6.homework1.homework1_nojoincolumn.Team</class>
         <class>homework.chapter_6.homework1.homework1_nojoincolumn.Member</class>
-        <class>homework.chapter_6.homework2.Member</class>
-        <class>homework.chapter_6.homework2.Locker</class>
+        <class>homework.chapter_6.homework2.homework2_eager.Member</class>
+        <class>homework.chapter_6.homework2.homework2_eager.Locker</class>
+        <class>homework.chapter_6.homework2.homework2_lazy.Member</class>
+        <class>homework.chapter_6.homework2.homework2_lazy.Locker</class>
         <class>homework.chapter_6.homework3.Member</class>
         <class>homework.chapter_6.homework3.Product</class>
         <class>homework.chapter_6.homework3.Order</class>
