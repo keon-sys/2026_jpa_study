@@ -1,9 +1,9 @@
-package homework.chapter_6.homework1;
+package homework.chapter_6.bonus2;
 
 import jakarta.persistence.*;
 
-@Entity(name = "Hw1Member")
-@Table(name = "member_hw1")
+@Entity(name = "Bonus2Member")
+@Table(name = "member_bonus2")
 public class Member {
 
     @Id
@@ -12,9 +12,6 @@ public class Member {
     private Long id;
 
     private String name;
-
-    // 일대다 단방향: Member는 Team을 참조하지 않음!
-    // (Team → Member 방향만 존재)
 
     protected Member() {
     }

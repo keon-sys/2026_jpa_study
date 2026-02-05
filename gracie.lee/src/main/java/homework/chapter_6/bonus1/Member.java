@@ -1,9 +1,9 @@
-package homework.chapter_6.homework2;
+package homework.chapter_6.bonus1;
 
 import jakarta.persistence.*;
 
-@Entity(name = "Hw2Member")
-@Table(name = "member_hw2")
+@Entity(name = "Bonus1Member")
+@Table(name = "member_bonus1")
 public class Member {
 
     @Id
@@ -13,8 +13,8 @@ public class Member {
 
     private String name;
 
-    @OneToOne  // ← fetch = FetchType.LAZY 추가해서 지연 로딩 확인!
-    @JoinColumn(name = "locker_id")
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "locker_id")  // Member가 FK 보유
     private Locker locker;
 
     protected Member() {
