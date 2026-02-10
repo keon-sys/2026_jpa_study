@@ -40,6 +40,13 @@
         <class>homework.chapter_6.bonus3.Team</class>
         <class>homework.chapter_6.bonus3.Member</class>
 
+        <!-- 7장 숙제 엔티티 -->
+        <class>homework.chapter_7.Item</class>
+        <class>homework.chapter_7.NormalItem</class>
+        <class>homework.chapter_7.SubscriptionItem</class>
+        <class>homework.chapter_7.Order</class>
+        <class>homework.chapter_7.OrderItem</class>
+
         <properties>
             <!-- H2 Database Connection -->
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -57,6 +64,9 @@
 
             <!-- DDL Auto: create, create-drop, update, validate, none -->
             <property name="hibernate.hbm2ddl.auto" value="create"/>
+
+            <!-- camelCase → snake_case 자동 변환 (예: orderNo → order_no) -->
+            <property name="hibernate.physical_naming_strategy" value="org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy"/>
         </properties>
     </persistence-unit>
 

@@ -1,6 +1,8 @@
 plugins {
     java
     application
+    kotlin("jvm") version "1.9.22"
+    kotlin("plugin.jpa") version "1.9.22"
 }
 
 application {
@@ -31,4 +33,7 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
 }
